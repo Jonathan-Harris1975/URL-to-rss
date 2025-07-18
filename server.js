@@ -41,4 +41,3 @@ res.send(feed.rss2());
 } catch (err) { res.status(500).send(RSS generation failed: ${err.message}); } });
 
 app.listen(PORT, () => { console.log(✅ RSS Generator running on :${PORT}); });
-
